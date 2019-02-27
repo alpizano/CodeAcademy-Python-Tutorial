@@ -10,20 +10,20 @@ if len(word) > 0:
 else:
     print("Please enter a valid word!")
 
-print (len(word)-1)
+#print (len(word)-1)
 
 last = len(word)
 
 first = word[0].lower()
 
-print (first)
+#print (first)
 
-print (word[1:last])
+#print (word[1:last])
 
 meat = word[1:last]
 
 print ("The pig latin phrase of %s is: %s%say" % (word,meat,first))
 
 
-#word[last_let] = word[0]
-#print (word + "ay")
+# word[last_let] = word[0]
+# print (word + "ay")
