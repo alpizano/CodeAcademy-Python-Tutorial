@@ -26,3 +26,12 @@ the_avg = the_sum/len(y_list)
 print ("The sum of y_list is: %s" % the_sum)
 print ("The avg of y_list using built in funct is: %s" % the_avg)
 
+test_list = []
+
+test_list.append(1)
+test_list.append(3)
+test_list.append(5)
+
+print (test_list)
+
+
