@@ -10,9 +10,9 @@ for i in range(6):
 
 y_list = [1,5,3,7,1]
 tot = 0
-
-for k in len(y_list):
-    tot += y_list[k]
+print ("Length of y list is: %s " % len(y_list))
+for k in y_list:
+    tot += k
     print (tot)
 
 
