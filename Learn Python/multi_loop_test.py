@@ -44,5 +44,55 @@ def print_list(x):
     for i in range(0, len(x)):
         print (x[i])
 
-
 print_list(n)
+
+
+def total(numbers):
+  result = 0
+  for i in range(0,len(numbers)):
+    result = result + numbers[i]
+  return result
+
+print (total(n))
+
+
+mm = [1, 2, 3]
+nn = [4, 5, 6]
+
+# Add your code here!
+def join_lists(x,y):
+  new_list = []
+  for i in range(0,len(x)):
+    new_list.append(x[i])
+  for k in range(0,len(y)):
+    new_list.append(y[k])
+  return new_list
+
+print (join_lists(mm, nn))
+# You want this to print [1, 2, 3, 4, 5, 6]
+
+# CAN LITERALLY DO RETURN X + Y TO CONCATENATE LISTS IN PYTHON!!!!!!!!!!!!!!!!!!!!!!!
+def join_lists2(x,y):
+    new_list = []
+    for i in x:
+        new_list = x
+    for j in y:
+        new_list = y
+    return new_list
+
+print (join_lists2(mm,nn))
+
+
+# for concatenating nested lists with nested for loop
+n33 = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+# Add your function here
+def flatten(lists):
+  results = []
+  for lst in lists:
+    for numbers in lst:
+      results.append(numbers)
+  return results
+
+
+
+print (flatten(n33))
