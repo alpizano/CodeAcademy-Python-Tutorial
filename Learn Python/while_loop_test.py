@@ -1,3 +1,5 @@
+import numpy as np
+
 count = 0
 
 if count < 5:
@@ -6,3 +8,8 @@ if count < 5:
 while count < 10:
   print ("Hello, I am a while and count is %s" % count)
   count += 1
+
+  blah = np.random.permutation(50)
+
+for i in blah[:25]:
+  print (i)
